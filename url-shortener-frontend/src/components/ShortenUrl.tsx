@@ -100,6 +100,11 @@ const ShortenUrl = () => {
               >
                 Copy to clipboard
               </button>
+
+              <button onClick={() => window.open(`https://url-shortener-system-sb03.onrender.com/${shortUrl}`, "_blank")}
+               className="bg-green-600 text-white py-2 px-6 rounded-full font-semibold hover:bg-green-700 transition mt-4">
+                  Open Short URL ↗
+              </button>
             </div>
           )}
 
