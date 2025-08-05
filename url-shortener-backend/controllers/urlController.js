@@ -2,7 +2,7 @@ const Url = require('../models/urlModels');
 
 const { nanoid } = require('nanoid');
 
-const BASE_URL = 'https://short.ly';
+const BASE_URL = 'https://url-shortener-system-sb03.onrender.com';
 
 exports.createShortUrl = async (req, res) => {
   const { longUrl, customCode, expiresAt } = req.body;
