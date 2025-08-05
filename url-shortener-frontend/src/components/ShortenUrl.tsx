@@ -19,7 +19,7 @@ const ShortenUrl = () => {
     setShortUrl("");
 
     try {
-      const response = await fetch("http://localhost:8000/shorten", {
+      const response = await fetch("https://url-shortener-system-sb03.onrender.com/shorten", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

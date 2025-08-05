@@ -17,7 +17,7 @@ const RedirectUrl = () => {
     setAnalytics(null);
 
     try {
-      const response = await fetch(`http://localhost:8000/analytics/${shortId}`);
+      const response = await fetch(`https://url-shortener-system-sb03.onrender.com/analytics/${shortId}`);
       const data = await response.json();
       console.log("Analytics Response:", data);
 
