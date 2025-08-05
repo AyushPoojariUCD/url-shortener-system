@@ -1,0 +1,23 @@
+{
+  "name": "url-shortener-system",
+  "version": "1.0.0",
+  "description": "Scalable Url Shortener System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyushPoojariUCD/url-shortener-system.git"
+  },
+  "author": "Ayush Poojari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyushPoojariUCD/url-shortener-system/issues"
+  },
+  "homepage": "https://github.com/AyushPoojariUCD/url-shortener-system#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nanoid": "^5.1.5"
+  }
+}
