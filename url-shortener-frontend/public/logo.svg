@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 124 124" fill="none">
+  <!-- Orange rounded background -->
+  <rect width="124" height="124" rx="24" fill="#F97316"/>
+
+  <!-- Abstract white "S"-like curve -->
+  <path d="M30 80 C30 60, 90 60, 90 40 C90 20, 30 20, 0 60" fill="white"/>
+
+  <!-- Black circle accent -->
+  <circle cx="40" cy="30" r="14" fill="black"/>
+
+  <!-- Rotated soft-peach rectangle accent -->
+  <rect opacity="0.4" x="81" y="81" width="40" height="40" rx="4" transform="rotate(-45 81 81)" fill="#FDBA74"/>
+
+  <!-- Centered black "S" -->
+  <text x="62" y="72" text-anchor="middle" dominant-baseline="middle"
+        font-family="Fredoka, Baloo 2, cursive, sans-serif"
+        font-weight="700" font-size="80" fill="#FDBA74">S</text>
+</svg>

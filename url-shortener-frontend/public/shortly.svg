@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+  <defs>
+    <style>
+      .bitly-style {
+        fill: #ee6123;
+        font-family: 'Fredoka', 'Baloo 2', cursive, sans-serif;
+        font-weight: 600;
+        font-size: 48px;
+      }
+    </style>
+  </defs>
+  <text x="10" y="55" class="bitly-style">Shortly</text>
+</svg>
