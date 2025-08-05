@@ -18,7 +18,7 @@ connectToMongoDB(process.env.MONGO_URI)
     app.use(express.json());
 
     // Routes
-    app.use('/url', routes);
+    app.use('/', routes);
 
     // Start the server after DB connection
     app.listen(PORT, () => {
